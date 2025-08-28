@@ -6,12 +6,12 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pydivert-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pydivert-{{ version }}.tar.gz
   sha256: f0e150f4ff591b78e35f514e319561dadff7f24a82186a171dd4d465483de5b4
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
-  number: 5
+  number: 6
   skip: True  # [not win]
 
 requirements:
