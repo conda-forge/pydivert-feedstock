@@ -1,5 +1,5 @@
 {% set name = "pydivert" %}
-{% set version = "3.1.1" %}
+{% set version = "3.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pydivert-{{ version }}.tar.gz
-  sha256: 93ec09b012b80cfa43afe7c11f3cb9101369f78e1489f41ae37dda637449083c
+  sha256: 361e5c726e344dcb6c48220e7fe7c05b5c8f539598b538e40f9500b58306616a
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
