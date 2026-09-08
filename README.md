@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pydivert-feedst
 
 Home: https://github.com/ffalcinelli/pydivert
 
-Package license: LGPL-3.0-or-later
+Package license: LGPL-3.0-or-later or GPL-2.0-or-later
 
 Summary: Python binding to windivert driver
 
@@ -190,7 +190,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@AdrianFreundQC](https://github.com/AdrianFreundQC/)
 * [@freundTech](https://github.com/freundTech/)
 * [@jonashaag](https://github.com/jonashaag/)
 
