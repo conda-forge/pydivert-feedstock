@@ -33,9 +33,11 @@ tests:
 
 about:
   summary: Python binding to windivert driver
-  license: LGPL-3.0-or-later
+  license: LGPL-3.0-or-later or GPL-2.0-or-later
   license_file:
     - LICENSE
+    - LICENSE-LGPL-3.0-or-later
+    - LICENSE-GPL-2.0-or-later
   homepage: https://github.com/ffalcinelli/pydivert
   documentation: https://pythonhosted.org/pydivert/
 
